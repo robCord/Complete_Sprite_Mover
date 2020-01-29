@@ -17,6 +17,7 @@ public class Component_Disabler : MonoBehaviour
         //when p is pressed down it disables sprite mover until p is pressed again
         if (Input.GetKeyDown(KeyCode.P))
         {
+            //sets sprite mover script disabled
             SpriteMover.enabled = (!SpriteMover.enabled);
         }
     }
